@@ -1,0 +1,94 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f0f2f5;
+    font-family: Arial, sans-serif;
+}
+
+.card {
+    width: 300px;
+    background: white;
+    border-radius: 15px;
+    overflow: hidden;
+    text-align: center;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+}
+
+.banner {
+    height: 110px;
+    background: linear-gradient(135deg, #2196f3, #673ab7);
+}
+
+.avatar {
+    width: 90px;
+    height: 90px;
+    background: #ffcc00;
+    border: 5px solid white;
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 28px;
+    font-weight: bold;
+
+    margin: -45px auto 10px;
+    position: relative;
+}
+
+h2 {
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+.role {
+    color: gray;
+    margin-bottom: 15px;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    gap: 7px;
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+li {
+    background: #e8f1ff;
+    color: #2878d0;
+    padding: 6px 10px;
+    border-radius: 20px;
+    font-size: 12px;
+}
+
+.followers {
+    margin-bottom: 15px;
+    color: #555;
+}
+
+button {
+    background: #2878d0;
+    color: white;
+    border: 2px solid #2878d0;
+    padding: 10px 30px;
+    border-radius: 25px;
+    font-size: 15px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+button.following {
+    background: white;
+    color: #2878d0;
+}
